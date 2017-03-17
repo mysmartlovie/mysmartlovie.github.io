@@ -1,5 +1,8 @@
 style.css
-body 
+body {
+	color:grey;
+	background-color:purple;
+	}
 
 
 h1,p {
