@@ -1,6 +1,27 @@
 body {
 	background-color:#F0FFFF;
 	}
-h1,p {
+	{
+	text-align:center;
+	}
+
+h1{
 	color:#7F525D;
+	}
+	{font-family:"Abadi MT Condensed Extra Bold", monospace;
+	}
+	{font-size:24px;
+	}
+	{font-weight: bold;
+	}
+	{font-style:italic;
+	}
+		p {
+		color:#7F525D;
+		}
+		{font-family:"Abadi MT Condensed Extra Bold", monospace;
+		}
+		{font-size:18px;
+		}
+		{font-weight: normal;
 	}
