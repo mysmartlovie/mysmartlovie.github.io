@@ -5,10 +5,10 @@ body {
 	text-align:center;
 	}
 
-h1{
+h1,h2,h3,p{
 	color:#7F525D;
 	}
-	{font-family:"Abadi MT Condensed Extra Bold", monospace;
+	h1 {font-family:"Abadi MT Condensed Extra Bold", monospace;
 	}
 	{font-size:40px;
 	}
@@ -19,7 +19,7 @@ h1{
 	{text-transform:uppercase
 	}
 
-		p {
+		h2,h3,p {
 		color:#7F525D;
 		}
 		{font-family:"Abadi MT Condensed Extra Bold", monospace;
