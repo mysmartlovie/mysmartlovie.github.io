@@ -18,8 +18,7 @@ h1,h2,h3,p{
 	}
 	{text-transform:uppercase
 	}
-
-		h2,h3,p {
+ul{
 		color:#7F525D;
 		}
 		{font-family:"Abadi MT Condensed Extra Bold", monospace;
@@ -28,3 +27,4 @@ h1,h2,h3,p{
 		}
 		{font-weight: bold;
 	}
+		
