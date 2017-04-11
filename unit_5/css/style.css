@@ -1,0 +1,70 @@
+*{
+	padding:1;
+	margin:2;
+	}
+
+@import url(https://fonts.googleapis.com/css?family=Scope+One);
+
+body {
+	background-color:#E5E4E2;
+	color:#E45E9D;
+	font-family:'Scope One', serif;
+	font-size:16px;/*1em=16px*/
+	text-align:center;
+}
+
+
+nav {
+	margin:auto;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rozha+One);
+
+
+h1 {
+	font-family: 'Rozha One', serif;
+	font-size:3em;
+	font-weight: bold;
+	font-style:normal;
+	text-transform:uppercase
+}
+h2 {
+	font-size:1.75em;
+}
+h3 {
+	font-size:1.25em;
+}
+
+ul { list-style:none;
+
+}
+
+h4 {
+	font-size:1em;
+}
+
+p {
+	font-size:1em;
+	width:30em;
+	text-align:center;
+	margin: 2em auto;
+	line-height: 1.5em
+}
+hr {
+	border:none;
+	height:2px;
+	background-color:#E45E9D;
+	width:8em;
+	margin:2em auto;
+	
+}
+img { width:300px; }
+
+.navlinks{
+	color: #778899;
+	padding:4em;
+	text-transform:uppercase;
+	font-weight:600;
+	letter-spacing: 2px;
+	margin-top:4em;
+	}
