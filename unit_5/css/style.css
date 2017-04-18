@@ -1,60 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Scope+One);
+@import url(https://fonts.googleapis.com/css?family=Rozha+One);
 *{
 	padding:0;
 	margin:0;
-	}
-
-@import url(https://fonts.googleapis.com/css?family=Scope+One);
+	box-sizing:border-box;
+}
 
 body {
-	background-color:white;
-	color:#A4B0B0;
+	color:rgba(0, 0, 0, 0.4);
 	font-family:'Scope One', serif;
-	font-size:16px;/*1em=16px*/
+	font-size: 18px;/*1em=16px*/
 	text-align:center;
-	line-height:1;
+	line-height:1.3;
 }
 
 header {
 	background-color:#FFED74;
 	color:white;
 	border:1px black solid;
-	padding:20px;
+	padding:1em;
 }
 
 section{
 	background-color:#FFE2B8;
 }
-
-
-@import url(https://fonts.googleapis.com/css?family=Rozha+One);
-
-
-
 h1 {
 	font-family: 'Rozha One', serif;
 	font-size:3em;
 	font-weight: bold;
 	font-style:normal;
 	text-transform:uppercase;
-	height:2em;
-	padding: 0px 0;
-	
+	width: 11em;
+	line-height: 1;
 }
 
-h2 
- {
+h2 {
 	font-size:2em;
 	font-weight: bold;
 	font-style:normal;
-	text-transform:uppercase;
-	height:2em;
-	
+	text-transform:uppercase;	
 }
 
 h3 {
 	font-size:2em;
-	padding:40px 0;
-	height:1em;
+	/* height:1em; */
 }
 
 
@@ -63,8 +52,7 @@ h4 {
 }
 
 p {
-	font-size:2em;
-	width:30em;
+	font-size: 1em;
 	text-align:center;
 	margin: 1em auto;
 	line-height: 1em;
@@ -116,8 +104,7 @@ ul {
 	font-size: 2em;
 }
 
-footer
-{
+footer{
 	background-color:#FF957E;
 	color:white;
 	text-align: center;
@@ -125,9 +112,25 @@ footer
 	margin:auto;
 	clear:both;
 }
-.wrapper
-{
+.wrapper{
 	margin-left:auto;
 	margin-right:auto;
 }
 
+#intro {
+	background:url(http://cdn3.bigcommerce.com/s-2bbqdjj2n4/product_images/theme_images/Blankie-7758.jpg?t=1484133413);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: rgba(0,0,0,.85);
+	height: 85vh;
+	padding: 3em;
+	text-align: left;
+}
+#how-it-works div {
+	width: 33.33%;
+	float: left;
+	padding: 2em;
+}
+#how-it-works div img {
+	width:10em;
+}
