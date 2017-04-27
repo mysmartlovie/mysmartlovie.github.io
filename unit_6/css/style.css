@@ -28,10 +28,12 @@ h1 {
 	font-family: 'Rozha One', serif;
 	font-size:2.75em;
 	font-weight: bold;
+	text-align:left;
 	font-style:normal;
+	line-height: 1;
 	text-transform:uppercase;
 	width: 25em;
-	line-height: 1.5;
+	
 }
 
 h2 {
@@ -40,6 +42,7 @@ h2 {
 	font-style:normal;
 	text-transform:uppercase;	
 	line-height: 1.5;
+	padding:1em;
 }
 
 h3 {
@@ -58,6 +61,7 @@ p {
 	text-align:center;
 	margin: 1em auto;
 	line-height: 1em;
+	padding:1em;
 }
 
 
@@ -70,10 +74,10 @@ nav {
 	font-weight:200;
 	padding:8px;
 	font-weight: bold;
-	}
+}
 
 .navlinks{
-	color:#5ADBC1;
+	color:rgba(0, 0, 0, 0.4);;
 	padding:8px;
 	text-transform:uppercase;
 	font-weight:200;
@@ -84,21 +88,26 @@ nav {
 .cta {
 	color:#5ADBC1;
 	text-transform:none;
-	font-weight:200;
+	text-transform:uppercase;
+	font-weight:bold;
 	letter-spacing:4px;
-	text-decoration: line;
-	}
+	text-decoration: none;
 }
 
-nav:hover {
-	background-color:rgba(0, 0, 0, 0.4);
-	}
 
+nav a:hover {
+	background-color:#5ADBC1;
+}
+
+a{
+	font-size: 1.5em;
+	font-weight:bold;
+}
 
 ul {
 	text-align: left;
-	padding:10px 120px;
-	font-size: 1em;
+	padding:10px;
+	font-size: 1.25em;
 }
 
 footer{
@@ -128,6 +137,7 @@ footer{
 	width: 33.3%;
 	float: left;
 	padding: 3em;
+	margin:auto;
 }
 #how-it-works div img {
 	width:10em;
@@ -144,24 +154,32 @@ footer{
 }
 
 #two_column {
-	padding:20px;
+	padding:1em;
+	margin:2em;
+
 }
+
 #left {
 	text-align:left;
 	float:left;
-	width: 53%;
+	width: 48%;
+	background: #5ADBC1;
+	color:white;
 }
 
 
-#right
-{
+#right{
 	float:right;
-	width:47%;
+	text-align:left;
+	width:48%;
+	background: #5ADBC1;
+	color:white;
+
 }
-}
+
 .clearfix:after{
 	visibility: hidden;
-	display: :block;
+	display: block;
 	font-size:0;
 	content:"";
 	clear:both;
