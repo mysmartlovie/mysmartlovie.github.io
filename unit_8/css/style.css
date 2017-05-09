@@ -23,6 +23,7 @@ header {
 
 section{
 	background-color:white;
+	padding: 5em 0;
 }
 h1 {
 	font-family: 'Rozha One', serif;
@@ -143,7 +144,11 @@ label {
 	padding: 1em;
 	height: 85vh;
 	text-align: left;
-
+	background-position: top right;
+}
+#how-it-works {
+	max-width:80em;
+	margin:auto;
 }
 #how-it-works div {
 	width: 33.33%;
@@ -167,33 +172,19 @@ label {
 }
 
 #two_column {
-	padding:4%;
+	padding: 0;
 	margin:auto;
-	
 }
 
-#left {
+article {
 	text-align:left;
 	float:left;
-	width: 45%;
+	width: 49%;
 	background: #5ADBC1;
 	color:white;
-	padding-top: 1.5em;
-	
-
+	padding: 2em;
+	margin: .5%;
 }
-
-
-#right{
-	float:right;
-	text-align:left;
-	width:45%;
-	background: #5ADBC1;
-	color:white;
-	padding-top: 1.5em;
-
-}
-
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -206,69 +197,60 @@ label {
 #toggle {
 	display:none;
 }
-
-@media screen and (max-width:970) {
-	#intro section {
+/*
+@media only screen and (max-width:970px) {
+	#intro {
 		background-image:url(../images/doudou1.png);
 		background-size:cover;
-
 	}
 
 }
+*/
 
-
-@media screen and (max-width:900px) {
-
+@media only screen and (max-width: 900px) {
 	#how-it-works div {
 		width: 100%;
-		float: left;
-		padding:2%;
-		margin:auto;
 	}
-
 	#how-it-works div img {
-	width:33.33%;
+		width:33.33%;
+	}
+	#intro {
+		height: 700px;
 	}
 }
 
-@media screen and (max-width:840px){
-
-
-#left {
-	text-align:left;
-	float:left;
-	width: 100%;
-	background: #5ADBC1;
-	color:white;
-	margin:1em 0 1em 0;
-	padding:1em 0 1em 0;
-	
-}
-
-
-#right{
-	float:right;
-	text-align:left;
-	width:100%;
-	background: #5ADBC1;
-	color:white;
-	padding:1em 0 1em 0;
-	margin:1em 0 1em 0;
-
+@media only screen and (max-width:840px){
+	#left {
+		text-align:left;
+		float:left;
+		width: 100%;
+		background: #5ADBC1;
+		color:white;
+		margin:1em 0 1em 0;
+		padding: 4em 4em;
+	}
+	#right{
+		float:right;
+		text-align:left;
+		width:100%;
+		background: #5ADBC1;
+		color:white;
+		padding:1em 0 1em 0;
+		margin:1em 0 1em 0;
 	}
 }
 
 
 
 @media screen and (max-width:480px) {
-
-
 header {
 	background-color:#5ADBC1;
 	color:white;
 	padding:0;
 }
-
+h1 {
+	font-size:2em;
+}
 footer{
 	font-size:0.75em;
 }
