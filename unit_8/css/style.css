@@ -23,13 +23,14 @@ header {
 
 section{
 	background-color:white;
+	padding:5em 0;
 }
+
 h1 {
 	font-family: 'Rozha One', serif;
-	font-size:3em;
+	font-size:3.75em;
 	font-weight: bold;
 	font-style:normal;
-	line-height: 1;
 	text-transform:uppercase;
 	
 }
@@ -139,11 +140,17 @@ label {
 	background-image:url(../images/doudou1.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
+	background-position:top right;
 	color:rgba(0,0,0,0.6);
 	padding: 1em;
 	height: 85vh;
 	text-align: left;
 
+}
+
+#how-it-works {
+	max-width:80em;
+	margin:auto;
 }
 #how-it-works div {
 	width: 33.33%;
@@ -167,19 +174,19 @@ label {
 }
 
 #two_column {
-	padding:4%;
+	padding:0%;
 	margin:auto;
 	
 }
 
-#left {
+article {
 	text-align:left;
 	float:left;
-	width: 45%;
+	width: 49%;
 	background: #5ADBC1;
 	color:white;
-	padding-top: 1.5em;
-	
+	padding:2em;
+	margin:1%;
 
 }
 
@@ -207,9 +214,9 @@ label {
 	display:none;
 }
 
-@media screen and (max-width:970) {
-	#intro section {
-		background-image:url(../images/doudou1.png);
+@media only screen and (max-width:970px) {
+	#intro  {
+		background-image:url(../images/doudou1.jpg);
 		background-size:cover;
 
 	}
@@ -217,17 +224,18 @@ label {
 }
 
 
-@media screen and (max-width:900px) {
+@media only screen and (max-width:900px) {
 
 	#how-it-works div {
 		width: 100%;
-		float: left;
-		padding:2%;
-		margin:auto;
+		
 	}
 
 	#how-it-works div img {
 	width:33.33%;
+	}
+	#intro {
+		height:700px;
 	}
 }
 
@@ -255,6 +263,13 @@ label {
 	padding:1em 0 1em 0;
 	margin:1em 0 1em 0;
 
+	}
+	h1 {
+	font-size:2.5em;
+	}
+
+	h2{
+		font-size:1.5em;
 	}
 }
 
@@ -293,4 +308,5 @@ label {
 #toggle:checked + nav{
 	display: block;
 	}
+
 }
