@@ -23,17 +23,14 @@ header {
 
 section{
 	background-color:white;
-<<<<<<< HEAD
 	padding:5em 0;
-=======
 	padding: 5em 0;
->>>>>>> origin/master
 }
 
 h1 {
 	font-family: 'Rozha One', serif;
 	font-size:3.75em;
-	font-weight: bold;
+	font-weight: bolder;
 	font-style:normal;
 	text-transform:uppercase;
 	
@@ -41,10 +38,10 @@ h1 {
 
 h2 {
 	font-size:2em;
-	font-weight: bold;
-	font-style:normal;
+	font-weight:bold;
 	text-transform:uppercase;	
 	line-height: 1.5;
+	color:#5ADBC1;
 }
 
 h3 {
@@ -151,24 +148,24 @@ label {
 	text-align: left;
 	background-position: top right;
 }
-#how-it-works {
-	max-width:80em;
-	margin:auto;
-}
+
 
 #how-it-works {
 	max-width:80em;
 	margin:auto;
 }
+
+
 #how-it-works div {
 	width: 33.33%;
 	float: left;
 	padding:2%;
 	margin:auto;
+
 }
 
 #how-it-works div img {
-	width:100%;
+	width:90%;
 }
 
 #why{
@@ -182,23 +179,21 @@ label {
 }
 
 #two_column {
-<<<<<<< HEAD
-	padding:0%;
-=======
-	padding: 0;
->>>>>>> origin/master
+	padding:4%;
 	margin:auto;
+	
+
 }
 
-article {
+#left {
 	text-align:left;
 	float:left;
-	width: 49%;
-<<<<<<< HEAD
+	width: 45%;
 	background: #5ADBC1;
 	color:white;
-	padding:2em;
-	margin:1%;
+	margin: auto;
+	padding:2em 2em;
+	
 
 }
 
@@ -207,13 +202,15 @@ article {
 	float:right;
 	text-align:left;
 	width:45%;
-=======
->>>>>>> origin/master
 	background: #5ADBC1;
 	color:white;
-	padding: 2em;
-	margin: .5%;
+	margin:auto;
+	padding:2em 2em;
+
 }
+
+
+
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -226,39 +223,27 @@ article {
 #toggle {
 	display:none;
 }
-<<<<<<< HEAD
+
 
 @media only screen and (max-width:970px) {
 	#intro  {
 		background-image:url(../images/doudou1.jpg);
-=======
-/*
-@media only screen and (max-width:970px) {
-	#intro {
-		background-image:url(../images/doudou1.png);
->>>>>>> origin/master
-		background-size:cover;
+}
+
+	#how-it-works div{
+		width:100%;
+		padding: 3em;
+
+	}
+
+	#how-it-works div img {
+		width:30%;
 	}
 
 }
-*/
 
-<<<<<<< HEAD
-
-@media only screen and (max-width:900px) {
-
-	#how-it-works div {
-		width: 100%;
-		
-=======
 @media only screen and (max-width: 900px) {
-	#how-it-works div {
-		width: 100%;
->>>>>>> origin/master
-	}
-	#how-it-works div img {
-		width:33.33%;
-	}
+
 	#intro {
 		height: 700px;
 	}
@@ -268,24 +253,25 @@ article {
 }
 
 @media only screen and (max-width:840px){
+	
 	#left {
-		text-align:left;
-		float:left;
-		width: 100%;
-		background: #5ADBC1;
-		color:white;
-		margin:1em 0 1em 0;
-		padding: 4em 4em;
-	}
-	#right{
-		float:right;
-		text-align:left;
-		width:100%;
-		background: #5ADBC1;
-		color:white;
-		padding:1em 0 1em 0;
-		margin:1em 0 1em 0;
-	}
+ 		text-align:left;
+ 		float:left;
+ 		width: 100%;
+ 		background: #5ADBC1;
+ 		color:white;
+ 		margin:2em 0 2em 0;
+ 		padding: 4em 4em;
+ 	}
+ 	#right{
+ 		float:right;
+ 		text-align:left;
+ 		width:100%;
+ 		background: #5ADBC1;
+ 		color:white;
+ 		padding:4em 4em;
+ 		margin:2em 0 2em 0;
+  	}
 	h1 {
 	font-size:2.5em;
 	}
