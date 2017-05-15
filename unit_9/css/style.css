@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css?family=Scope+One);
+@import url(https://fonts.googleapis.com/css?family=Rozha+One);
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+	color:rgba(0, 0, 0, 0.4);
+	font-family:'Scope One', serif;
+	font-size: 16px;/*1em=16px*/
+	text-align:center;
+	line-height:1.3;
+}
+
+header {
+	background-color:#5ADBC1;
+	color:white;
+	border:1px black solid;
+	padding:1em;
+}
+
+section{
+	background-color:white;
+	padding:5em 0;
+	padding: 5em 0;
+}
+
+h1 {
+	font-family: 'Rozha One', serif;
+	font-size:3.75em;
+	font-weight: bolder;
+	font-style:normal;
+	text-transform:uppercase;
+	
+}
+
+h2 {
+	font-size:2em;
+	font-weight:bold;
+	text-transform:uppercase;	
+	line-height: 1.5;
+}
+
+h3 {
+	font-size:2em;
+	/* height:1em; */
+	line-height: 1.5;
+}
+
+
+h4 {
+	font-size:1.5em;
+}
+
+p {
+	font-size:1.25em;
+	text-align:center;
+	margin: 1em auto;
+	line-height: 1.25em;
+	padding:1em;
+}
+
+nav {
+	text-align:center;
+	display:block;
+	background-color:white;
+	font-size:1em;
+	font-weight:200;
+	padding:8px;
+	font-weight: bold;
+}
+
+.navlinks{
+	color:rgba(0, 0, 0, 0.4);
+	padding:8px;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:200;
+	letter-spacing:4px;
+	text-decoration: none;
+	}
+
+.cta {
+	color:#5ADBC1;
+	text-transform:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing:4px;
+	text-decoration: none;
+	display:inline-block;
+	padding:1em;
+}
+
+
+nav a:hover {
+	background-color:#5ADBC1;
+}
+
+a{
+	font-size: 1.5em;
+	font-weight:bold;
+}
+
+ul {
+	text-align: left;
+	padding:10px;
+	font-size: 1.25em;
+}
+
+footer{
+	background-color:#5ADBC1;
+	color:white;
+	font-size:1em;
+	text-align: center;
+	padding:0px 20px;
+	margin:auto;
+	clear:both;
+}
+
+label {
+	color:rgba(0, 0, 0, 0.4);;
+	padding:8px;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:200;
+	letter-spacing:4px;
+	text-decoration: none;
+	display:none;
+	}
+
+#wrapper{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#intro {
+	background-image:url(../images/doudou1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top right;
+	color:rgba(0,0,0,0.6);
+	padding: 1em;
+	height: 85vh;
+	text-align: left;
+	background-position: top right;
+}
+
+
+#how-it-works {
+	max-width:80em;
+	margin:auto;
+}
+
+
+#how-it-works div {
+	width: 33.33%;
+	float: left;
+	padding:2%;
+	margin:auto;
+
+}
+
+#how-it-works div img {
+	width:90%;
+}
+
+#why{
+	padding: 4em;
+	width:100%;
+}
+
+
+#features{
+	padding: 2em;
+}
+
+#two_column {
+	padding:4%;
+	margin:auto;
+	
+
+}
+
+#left {
+	text-align:left;
+	float:left;
+	width: 45%;
+	background: #5ADBC1;
+	color:white;
+	margin: auto;
+	padding:2em 2em;
+	
+
+}
+
+
+#right{
+	float:right;
+	text-align:left;
+	width:45%;
+	background: #5ADBC1;
+	color:white;
+	margin:auto;
+	padding:2em 2em;
+
+}
+
+
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content:"";
+	clear:both;
+	height:0;
+}
+
+#toggle {
+	display:none;
+}
+
+
+@media only screen and (max-width:970px) {
+	#intro  {
+		background-image:url(../images/doudou1.jpg);
+}
+
+	#how-it-works div{
+		width:100%;
+		padding: 3em;
+
+	}
+
+	#how-it-works div img {
+		width:30%;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	#intro {
+		height: 700px;
+	}
+	#intro {
+		height:700px;
+	}
+}
+
+@media only screen and (max-width:840px){
+	
+	#left {
+ 		text-align:left;
+ 		float:left;
+ 		width: 100%;
+ 		background: #5ADBC1;
+ 		color:white;
+ 		margin:2em 0 2em 0;
+ 		padding: 4em 4em;
+ 	}
+ 	#right{
+ 		float:right;
+ 		text-align:left;
+ 		width:100%;
+ 		background: #5ADBC1;
+ 		color:white;
+ 		padding:4em 4em;
+ 		margin:2em 0 2em 0;
+  	}
+	h1 {
+	font-size:2.5em;
+	}
+
+	h2{
+		font-size:1.5em;
+	}
+}
+
+
+
+@media screen and (max-width:480px) {
+header {
+	background-color:#5ADBC1;
+	color:white;
+	padding:0;
+}
+h1 {
+	font-size:2em;
+}
+footer{
+	font-size:0.75em;
+}
+
+nav {
+	display:none;
+}	
+.navlinks{
+	color:rgba(0, 0, 0, 0.4);
+	padding:15px;
+	font-size:0.75em;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	text-decoration: none;
+	display:block;
+	}
+
+label {
+	display:block;
+}
+
+#toggle:checked + nav{
+	display: block;
+	}
+
+}
